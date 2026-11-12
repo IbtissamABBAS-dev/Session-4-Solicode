@@ -22,9 +22,7 @@
             <a href="public-index.html" class="logo">
                 <span class="logo-sombre">Mon</span><span class="logo-couleur">Blog.</span>
             </a>
-            <p>
-                hi
-            </p>
+           
             <ul class="liens-navigation">
                 <li><a href="public-index.html">Accueil</a></li>
                 <li><a href="public-categorie.html">Catégories</a></li>
