@@ -1,11 +1,10 @@
-
 <?php
 
 $articles = [
     [
         'id' => 1,
         'titre' => 'Comment structurer ses composants UI avec Atomic Design ?',
-        'contenu' => 'Découvrez les concepts fondamentaux de la méthode Atomic Design pour organiser les composants de vos interfaces web et créer des applications modernes.',
+        'contenu' => 'Découvrez les concepts fondamentaux de la méthode Atomic Design...',
         'image' => 'article-example.png',
         'date_creation' => '2026-02-14',
         'categorie_libelle' => 'Développement',
@@ -14,7 +13,7 @@ $articles = [
     [
         'id' => 2,
         'titre' => 'Maîtriser les micro-interactions UX',
-        'contenu' => 'Une interface belle n\'est pas suffisante. Les micro-interactions améliorent l’expérience utilisateur et rendent la navigation plus agréable.',
+        'contenu' => 'Une interface belle n\'est pas suffisante...',
         'image' => 'article-example.png',
         'date_creation' => '2026-02-10',
         'categorie_libelle' => 'Design UI/UX',
@@ -22,16 +21,6 @@ $articles = [
     ]
 ];
 
-$categories = [
-    [
-        'id' => 1,
-        'libelle' => 'Développement'
-    ],
-    [
-        'id' => 2,
-        'libelle' => 'Design UI/UX'
-    ]
-];
+require 'index-template.php';
 
-require 'template.php';
-
+?>
